@@ -16,7 +16,7 @@ const greetingReducer = (state = init, action) => {
 
 export default greetingReducer;
 
-const url = 'http://localhost:3000/api/v1/greetings';
+const url = 'http://localhost:3001/api/v1/greetings';
 
 export const getGreetings = createAsyncThunk(GREETINGS, async (args, { dispatch }) => {
   const config = {
