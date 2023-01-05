@@ -15,5 +15,4 @@ const Greeting = () => {
     </div>
   );
 };
-
 export default Greeting;
